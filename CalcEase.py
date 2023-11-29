@@ -6,10 +6,10 @@ window = Tk()
 screenSize = "280x450"
 window.geometry(screenSize)
 window.resizable(1, 1)
-window.title("Calcualtor")
+window.title("CalcEase")
 #function
 def about():
-    messagebox.showinfo('About',"\n \n \n   Made by Dinesh Kumar   \n instagram id : @thedineshyadav\n \n")
+    messagebox.showinfo('About',"\n \n \n   \n \n")
 
 def clickButton(item):
     global expression
